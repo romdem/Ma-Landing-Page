@@ -101,7 +101,10 @@ h1{
 	background-color: white;
 	font-family:"Trebuchet MS", sans-serif;
 }
-
+.imgflex {
+	width:450px;
+height:450px;
+}
 .navbar2 li{
 	display: inline-block;
 	padding-right: 6%;
