@@ -19,6 +19,21 @@ h1{
 
 }
 
+#monlogo  img{
+	display:flex;
+	justify-content: center;
+  -webkit-transition:-webkit-transform .9s;
+
+}
+
+#monlogo  img:hover{
+  -webkit-transform:rotate(540deg);
+  -moz-transform:rotate(540deg);
+  -o-transform:rotate(540deg);
+  -ms-transform:rotate(540deg);
+  transform:rotate(540deg);
+}
+
 @media screen and (max-width: 720px) {
   .liste {
     clear:both;
@@ -43,7 +58,6 @@ h1{
 	opacity: 0.5;
 	font-family:"Trebuchet MS", sans-serif;
 }
-
 
 .navbar{
 	position:absolute;
