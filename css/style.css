@@ -88,7 +88,10 @@ h1{
 	border-color: rgba(27, 161, 226, 1);
 	font-family:"Trebuchet MS", sans-serif;
 }
-
+.flex {
+	margin-top: 354px;
+	margin-left: 30px;
+}
 
 .navbar2{
 	position:absolute;
@@ -128,25 +131,6 @@ h1{
 	font-family:"Trebuchet MS", sans-serif;
 }
 
-.titre1{
-	color: white;
-	padding-top: 1%;
-	padding-left: 11%;
-	font-family:"Trebuchet MS", sans-serif;
-}
-
-.titre2{
-	margin-top: 8%;
-	margin-left: 30%;
-	margin-right: 25%;
-	font-size: 20px;
-	color: white;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-		font-family:"Trebuchet MS", sans-serif;
-}
-
 #rendu{
 	position:relative;
 	height: 600px;
@@ -175,11 +159,6 @@ font-family:"Trebuchet MS", sans-serif;
 	font-family:"Trebuchet MS", sans-serif;
 }
 
-.integrer{
-	padding-left: 10%;
-	font-size: 20px;
-	font-family:"Trebuchet MS", sans-serif;
-}
 
 .liste{
 	padding-left: 12%;
@@ -212,6 +191,12 @@ font-family:"Trebuchet MS", sans-serif;
 
 	font-family:"Trebuchet MS", sans-serif;
 }
-.button {
-	margin-left:75px;
+.button button{
+	padding-right: 4%;
+	padding-left: 4%;
+	text-align: center;
+	font-size: 30px;
+	background-color: rgba(255, 255, 255, 0);
+	border-color: rgba(27, 161, 226, 1);
+	font-family:"Trebuchet MS", sans-serif;
 }
